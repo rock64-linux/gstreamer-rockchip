@@ -60,7 +60,8 @@ static GstStaticPadTemplate gst_mpp_video_dec_sink_template =
         "mpegversion = (int) { 1, 2, 4 },"
         "systemstream = (boolean) false,"
         "parsed = (boolean) true" ";"
-        "video/x-vp8" ";" "video/x-vp9" ";" "video/x-h263" ";" "image/jpeg" ";")
+        "video/x-vp8" ";" "video/x-vp9" ";" "video/x-h263" ";"
+        "image/jpeg," "parsed = (boolean) true" ";")
     );
 
 static GstStaticPadTemplate gst_mpp_video_dec_src_template =
